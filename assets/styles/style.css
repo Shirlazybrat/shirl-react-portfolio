@@ -1,2 +1,99 @@
 /*using flexbox and CSS Grid*/
+/*https://coolors.co/ff237b-ced3dd-89efff-160100-a366ff*/
 
+body {
+  background: #160100;
+  color: #ced3dd;
+}
+
+.container{
+  margin: 20px;
+}
+
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+nav {
+border-bottom: 5px solid #ced3dd;
+}
+
+.navbar {
+
+}
+.pink {
+  background: #ff237b;
+}
+
+.black {
+  background: #160100;
+}
+
+.white {
+  background: #ffffff;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+hr {
+  width: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) /repeat(3, 1fr);
+  /*grid-gap: 3px;*/
+}
+
+.grid div {
+  border-bottom: 2px solid #ff237b;
+  border-left: 2px solid #ff237b;
+}
+
+.header-banner {
+
+}
+
+.about {
+
+}
+
+.skills {
+
+}
+
+.more {
+
+}
+
+.projects {
+
+}
+
+.resume {
+
+}
+
+.blog {
+
+}
+
+.contact {
+
+}
+
+footer {
+
+}
