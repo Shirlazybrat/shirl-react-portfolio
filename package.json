@@ -1,0 +1,29 @@
+{
+  "name": "shirl-react-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio built with REACT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shirlazybrat/shirl-react-portfolio.git"
+  },
+  "keywords": [
+    "React",
+    "portfolio",
+    "shirlette"
+  ],
+  "author": "Shirlette Chambers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shirlazybrat/shirl-react-portfolio/issues"
+  },
+  "homepage": "https://github.com/Shirlazybrat/shirl-react-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4"
+  }
+}
