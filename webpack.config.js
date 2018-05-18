@@ -3,8 +3,8 @@ const SRC_DIR = path.join(__dirname, '/react-client/src');
 const DIST_DIR = path.join(__dirname, 'react-client/dist');
 const webpack = require('webpack');
 
-modile.exports = {
-    entry: `${RC_DIR}/index.jsx`,
+module.exports = {
+    entry: `${SRC_DIR}/index.jsx`,
     output: {
         path: DIST_DIR,
         filename: 'bundle.js',
