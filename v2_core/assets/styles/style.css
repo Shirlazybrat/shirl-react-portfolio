@@ -1,27 +1,33 @@
 /*using flexbox and CSS Grid*/
 /*https://coolors.co/ff237b-ced3dd-89efff-160100-a366ff*/
 
+/* font-family: 'Playfair Display', serif;
+font-family: 'IM Fell French Canon SC', serif;
+font-family: 'Marck Script', cursive; */
+
 body {
+  position: relative;
   background: #160100;
   color: #ced3dd;
 }
 
-.container{
-  margin: 20px;
+.container-fluid{
+  /*   margin: 20px; */
+}
+
+nav {
 }
 
 .wrapper {
   padding-top: 50px;
   padding-bottom: 50px;
+  height:500px;
 }
 
 nav {
-border-bottom: 5px solid #ced3dd;
+  border-bottom: 5px solid #ced3dd;
 }
 
-.navbar {
-
-}
 .pink {
   background: #ff237b;
 }
@@ -36,15 +42,18 @@ border-bottom: 5px solid #ced3dd;
 
 h2, h3 {
   text-align: center;
+  font-family: 'Playfair Display', serif;
 }
 
 p {
   text-align: center;
+  font-family: 'IM Fell French Canon SC', serif;
 }
 
 li {
   list-style: none;
   display: inline;
+  font-family: 'Marck Script', cursive;
 }
 
 hr {
