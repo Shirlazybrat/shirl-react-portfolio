@@ -15,7 +15,7 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+<div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
     <div class="container">
         <a href="../" class="navbar-brand">Shirletterly</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,7 +29,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="download">About <span class="caret"></span></a>
                     <div class="dropdown-menu" aria-labelledby="download">
-                        <a class="dropdown-item" href="https://uptowork.com/mycv/shirlette.chambers">Resume</a>
+                        <a class="dropdown-item" href="https://uptowork.com/mycv/shirlette.chambers" target="_blank">Resume</a>
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://www.linkedin.com/in/shirlettechambers/">Linkedin</a>
                         <a class="dropdown-item" href="https://github.com/Shirlazybrat">Github</a>
@@ -70,9 +70,6 @@
                     <h1 id="containers">Shirlette Chambers</h1>
                 </div>
                 <h1 class="display-3">Full-Stack Developer</h1>
-                <div class="container-fluid">
-                    <img src="#" alt="Developer Image">
-                </div>
                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                 <hr class="my-4">
                 <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -89,16 +86,11 @@
   <h3>About Me</h3>
   <hr>
   <div>
-    <img src="profile.jpg" alt="Shirlette Chambers">
+      <div class="container-fluid">
+          <img src="assets/images/ShirletteProfile.jpg" alt="Shirlette Chambers" style="max-height: 300px; max-width: 300px; border-radius: 50%;">
+      </div>
     <p><span>I am a career changer from Math teacher to Full-stack Web Developer currently working as a Software Engineer with experience in the MEAN stack, Linux, Apache, Python and MySql. I seek to create innovative and practical websites that will fulfill the needs my clients. My analytical skills and attention to detail are my greatest assets within this career field and I hope to use them to grow my knowledge on a consistent basis.</span>As an avid traveler who also possesses a passion for community activism, I hope to use my newly learned skills to support my areas of interest.
     </p>
-  </div>
-  <div>
-    <ul>
-      <li><a href="github"></a></li>
-      <li><a href="twitter"></a></li>
-      <li><a href="linkedin"></a></li>
-    </ul>
   </div>
   <p>Shirlette Chambers</p>
 </div>
@@ -265,7 +257,7 @@
     <div>
       <p>Accomplishments</p>
     </div>
-      <p><a href="https://uptowork.com/mycv/shirlette.chambers">Resume</a></p>
+      <p><a href="https://uptowork.com/mycv/shirlette.chambers" target="_blank">Resume</a></p>
   </div>
 </div>
 
@@ -340,19 +332,85 @@
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae culpa doloribus eaque earum ex excepturi id in ipsa maiores natus necessitatibus odio perferendis qui sequi, sint vel? A adipisci aspernatur delectus dicta dolor dolorum
     eaque et facere, fugit illum maiores molestiae molestias, nulla pariatur rem repudiandae suscipit vel vitae.</p>
   <div>
-    <form action="">
-
-    </form>
+      <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
   </div>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <fieldset>
+                            <legend>Legend</legend>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleTextarea">Example textarea</label>
+                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            </div>
+                            <fieldset class="form-group">
+                                <legend>Radio buttons</legend>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                        Option one is this and that—be sure to include why it's great
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                        Option two can be something else and selecting it will deselect option one
+                                    </label>
+                                </div>
+                                <div class="form-check disabled">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled="">
+                                        Option three is disabled
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <legend>Checkboxes</legend>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="" checked="">
+                                        Option one is this and that—be sure to include why it's great
+                                    </label>
+                                </div>
+                                <div class="form-check disabled">
+                                    <label class="form-check-label">
+                                        <input class="form-check-input" type="checkbox" value="" disabled="">
+                                        Option two is disabled
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn-outline-success">Save changes</button>
+                    <button type="button" class="btn-outline-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
 
-<footer id="footer" class="container-fluid wrapper pink">
-  <p>Footer</p>
+<footer id="footer" class="container-fluid pink">
   <ul>
-    <li><a href="https://www.linkedin.com/in/shirlette-chambers-b4878b15"></a>Linkedin</li>
-    <li><a href="https://github.com/Shirlazybrat"></a>Github</li>
-    <li><a href="https://twitter.com/missterious_1"></a>Twitter</li>
+    <li><a href="https://www.linkedin.com/in/shirlette-chambers-b4878b15" target="_blank"></a>Linkedin</li>
+    <li><a href="https://github.com/Shirlazybrat" target="_blank"></a>Github</li>
+    <li><a href="https://twitter.com/missterious_1" target="_blank"></a>Twitter</li>
   </ul>
 </footer>
 

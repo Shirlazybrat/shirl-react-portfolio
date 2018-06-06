@@ -14,7 +14,7 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   min-height:500px;
-  margin: 20px 0px 20px 0px;
+  margin: 0px;
 }
 
 /*nav {*/
@@ -34,6 +34,14 @@ body {
   margin: 10px 0px 10px 0px;
 }
 
+.card.mb-3 {
+  max-width: 20rem;
+}
+
+#myModal {
+  color: #160100;
+}
+
 /*h2, h3 {*/
   /*text-align: center;*/
   /*font-family: 'Playfair Display', serif;*/
@@ -44,30 +52,21 @@ body {
   /*font-family: 'IM Fell French Canon SC', serif;*/
 /*}*/
 
-/*li {*/
-  /*list-style: none;*/
-  /*display: inline;*/
+li {
+  list-style: none;
+  display: inline;
   /*font-family: 'Marck Script', cursive;*/
-/*}*/
+}
 
 /*hr {*/
   /*width: 200px;*/
 /*}*/
 
-/*.grid {*/
-  /*display: grid;*/
-  /*grid-template: repeat(2, 1fr) /repeat(3, 1fr);*/
-  /*!*grid-gap: 3px;*!*/
-/*}*/
-
-/*.grid div {*/
-  /*border-bottom: 2px solid #ff237b;*/
-  /*border-left: 2px solid #ff237b;*/
-/*}*/
-
-/*.header-banner {*/
-
-/*}*/
+.grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) /repeat(3, 1fr);
+  grid-gap: 3px;
+}
 
 /*.about {*/
 
@@ -97,6 +96,11 @@ body {
 
 /*}*/
 
-/*footer {*/
-
-/*}*/
+footer {
+  text-align: left;
+  padding-left: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height:100px;
+  margin: 0px;
+}
