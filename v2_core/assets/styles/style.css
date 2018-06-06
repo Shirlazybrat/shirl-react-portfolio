@@ -5,40 +5,34 @@
 font-family: 'IM Fell French Canon SC', serif;
 font-family: 'Marck Script', cursive; */
 
-/*body {*/
+body {
   /*position: relative;*/
-  /*background: #160100;*/
-  /*color: #ced3dd;*/
-/*}*/
+  text-align: center;
+}
 
-/*.container-fluid{*/
-  /*!*   margin: 20px; *!*/
-/*}*/
-
-/*nav {*/
-/*}*/
-
-/*.wrapper {*/
-  /*padding-top: 50px;*/
-  /*padding-bottom: 50px;*/
-  /*height:500px;*/
-/*}*/
+.wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  min-height:500px;
+  margin: 20px 0px 20px 0px;
+}
 
 /*nav {*/
   /*border-bottom: 5px solid #ced3dd;*/
 /*}*/
 
-/*.pink {*/
-  /*background: #ff237b;*/
-/*}*/
+.pink {
+  background: #ff237b;
+}
 
-/*.black {*/
-  /*background: #160100;*/
-/*}*/
+.black {
+  background: #160100;
+  color: #ffffff;
+}
 
-/*.white {*/
-  /*background: #ffffff;*/
-/*}*/
+.progress {
+  margin: 10px 0px 10px 0px;
+}
 
 /*h2, h3 {*/
   /*text-align: center;*/
